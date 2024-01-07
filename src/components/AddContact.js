@@ -43,8 +43,8 @@ class AddContact extends React.Component {
           <div className="field">
             <label>Id</label>
             <input type="number" 
-            name="Id" 
-            placeholder="id"
+            name="id" 
+            placeholder="Id"
             value={this.state.id}
             onChange={(event)=> this.setState({id: event.target.value})} 
             />
